@@ -5,22 +5,15 @@ const pokemonSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  abilities: {
-    abilityOne: {
-      type: String
-    },
-    abilityTwo: {
-      type: String
-    }
-  },
-  height: {
-    type: Number,
+  typeOne: {
+    type: String,
     required: true
   },
-  heldItem: {
-    type: String
+  typeTwo: {
+    type: String,
+    required: true
   },
-  locationAreaEncounter: {
+  imgUrl: {
     type: String
   },
   owner: {
