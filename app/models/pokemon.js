@@ -5,6 +5,10 @@ const pokemonSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  height: {
+    type: Number,
+    required: true
+  },
   typeOne: {
     type: String,
     required: true
